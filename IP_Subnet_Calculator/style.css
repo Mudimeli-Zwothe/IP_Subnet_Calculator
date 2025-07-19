@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1e1e2f;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+.card {
+  background-color: #0b0b25;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  max-width: 400px;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  background-color: #3a3a4f;
+  color: #fff;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #0059ff, #0518c7);
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  box-shadow: 0 0 15px #00ffff;
+  color: aqua;
+}
+
+.results {
+  margin-top: 20px;
+  text-align: left;
+  color: blue;
+  text-decoration: solid underline;
+}
+
+.email-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #020f1d;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.email-link:hover {
+  background-color: #0056b3;
+  color: white;}
+
+footer {
+  background-color: #171729;
+  color: rgba(255, 255, 255, 0.363);
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-style: italic;
+}

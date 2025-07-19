@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#007bff">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IP Subnet Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>IP Subnet Calculator</h1>
+    <div class="card">
+      <input type="text" id="ip" placeholder="Enter IP Address (e.g. 192.168.1.1)" />
+      <input type="number" id="cidr" placeholder="CIDR (e.g. 24)" min="1" max="32" />
+      <button onclick="calculateSubnet()">Calculate</button>
+      <div id="results" class="results"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  </body>
+  <footer>
+  <p>&copy; 2025 MudiNetCraft. All rights reserved.</p>
+  <P>Contact:(+27) 69 994 2684</P>
+  <a href="mailto:Mudimeli_Zwothe@outlook.com" class="email-link">
+  <i class="fas fa-envelope"></i> Email Us
+</a>
+
+</footer>
+</html>
